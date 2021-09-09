@@ -1,0 +1,14 @@
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .counter-btns {
+    display: flex;
+    gap: 1rem;
+  }
+}

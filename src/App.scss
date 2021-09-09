@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  color: #152d35;
+  letter-spacing: 0.05rem;
+}
+h1 {
+  font-size: 2.8rem;
+}
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 1.1rem;
+}
+.app {
+  background-color: #152d35;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clock {
+  width: 420px;
+  border-radius: 5px;
+  background-color: #d4ecdd;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  box-shadow: #152d35 0px 7px 29px 0px;
+  @media (max-width: 450px) {
+    width: 90vw;
+    padding: 2rem 1rem;
+  }
+}
